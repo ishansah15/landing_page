@@ -1,6 +1,7 @@
 * {
     padding: 0 0;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header {
@@ -13,11 +14,13 @@
     justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
+    padding: 10px;
 }
 
 ul {
     display: flex;
     list-style: none;
+    gap: 20px;
 }
 
 a {
@@ -25,21 +28,116 @@ a {
     color: white;
 }
 
+.headerlogo {
+    color: #f9faf8;
+    font-size: 24px;
+}
 .title {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
+    max-width: 444px;
 }
 
 .titlesub {
     font-size: 18px;
     color: #e5e7eb;
+    max-width: 444px;
 }
 
 .headerbody {
     display: flex;
+    padding: 100px;
+    justify-content: space-around;
 }
 
-.hbright {
+img {
     max-height: 200px;
+    margin-left: 44px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 50px;
+}
+
+.boxes {
+    color: #1f2837;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.section2 {
+    margin: 50px;
+    text-align: center;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.qoute {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2837;
+}
+
+.author {
+    color: #1f2937;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.section4 {
+    padding: 88px 111px;
+    
+}
+
+.action {
+    background-color: #3882f6;
+    border-radius: 4px;
+    color: #f9faf8;
+    display: flex;
+    padding: 33px;
+    justify-content: space-around;
+}
+
+.call-action-button {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    align-items: flex-end;
+    padding: 20px;
+    font-size: 9px;
+    text-align:center;
 }
